@@ -1,0 +1,103 @@
+/*dialog.ModalPopup::backdrop {
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0.75;
+}
+
+dialog.ModalPopup{
+  width: 100%;
+  height: 100%;
+  padding:0px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50px max(calc(100% - 100px),700px) 50px;
+}
+
+dialog.ModalPopup > .ModalPopupHead{
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+dialog.ModalPopup > .ModalPopupHead > .header{
+  flex: 1;
+}
+
+dialog.ModalPopup > .ModalPopupHead > .ModalPopupClose{
+  background-color: red;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  float: right;
+  position: relative;
+  right: -10px;
+  color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+dialog.ModalPopup > .ModalPopupBody{
+  height: min(100%, 700px);
+  width: 100%;
+}
+
+dialog.ModalPopup > .ModalPopupBody > .image_ctn >img{
+  object-fit: contain;
+}
+
+dialog.ModalPopup > .ModalPopupBody > .image_ctn{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
+*/
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/

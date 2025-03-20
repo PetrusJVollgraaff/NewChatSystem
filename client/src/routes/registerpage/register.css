@@ -1,0 +1,28 @@
+.register_modal,
+.register_modal form > div{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register_modal{   
+    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    width: min(80%, 300px);
+    padding: 15px;
+    background-color: var(--bg);
+}
+
+.register_modal form > div >input{
+    flex: 1;
+    border-radius: 50px;
+    padding: 2px 10px;
+    font-size: 16px;
+}
+
+.register_modal form > div > button{
+    flex: 1;
+    border-radius: 50px;
+    padding: 2px 10px;
+    font-size: 16px;
+}
